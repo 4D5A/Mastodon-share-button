@@ -91,14 +91,9 @@ function msbSetCookie(name, value, days) {
       let buttonText = null
 
       /**
-       * Add text button... or not
+       * Add text button
        */
-      if (msbConfig && (msbConfig.buttonDisplayText || msbConfig.buttonDisplayText === undefined)) {
-        buttonText = !!msbText ? document.createTextNode(msbText) : document.createTextNode(msbI18n())
-      }
-      else {
         buttonText = document.createTextNode('')
-      }
 
       
       if (msbButtonStyle) {
