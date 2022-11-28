@@ -7,6 +7,8 @@ Copy _includes/social-share.html to your _includes directory.
 
 Copy assets/js/mastodon.js to your assets/js directory.
 
+To enable the Mastodon share button, you need to add some code in _config.tml. In the "General Options" section, you need to add a share-links-active entry for mastodon.
+
 ## Set a default Mastodon instance in the modal's msb-address text field
 In social-share.html, on line 34, you can set a default instance address by editing the value.
 
