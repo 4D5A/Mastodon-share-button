@@ -4,6 +4,7 @@
 
 ## Setup using Beautiful Jekyll
 Copy _includes/social-share.html to your _includes directory.
+
 Copy assets/js/mastodon.js to your assets/js directory.
 
 ## Set a default Mastodon instance in the modal's msb-address text field
