@@ -1,7 +1,5 @@
 # Mastodon share button
 
-➡️ For a demo, click [here](https://aly-ve.github.io/Mastodon-share-button/).
-
 ## Setup using Beautiful Jekyll
 Copy _includes/social-share.html to your _includes directory.
 
